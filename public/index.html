@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Divya Rekha Kalluri</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="topnav">
+              
+              <a href="#contact">CONTACT</a>
+              <a href="#blogs">BLOGS</a>  
+              <a href="#experience">EXPERIENCE</a>
+              <a href="#projects">PROJECTS</a>
+              <a href="#education">EDUCATION</a> 
+              <a href="#about">ABOUT</a>
+           
+            </div>
+        
+            <div id="about">   
+
+                  <div id="box1">
+                            <img src="images/profile.jpg" width="150px" height="150px"> 
+                            <p style="text-align: left;">DIVYA REKHA KALLURI <br>
+                            dkall3@unh.mewhaven.edu</p>  
+                            
+                  </div>
+                  
+                  <div id="box2">
+                        <h2 style ="text-align: center;">ABOUT</h2>                           
+                            <p>There are many variations of passages of Lorem Ipsum available, 
+                                    but the majority have suffered alteration in some form, by injected humour, 
+                                    or randomised words which don't look even slightly believable.
+                  </div>
+            </div>
+
+        
+             
+            <div id="education">
+                    <h2 style ="text-align: left;">EDUCATION</h2>                 
+                    
+                    <p>
+                      Master of Science in Computer Science &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Newhaven, Connecticut
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of New Haven &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGPA-3.66  
+                    </p>                                      	
+                   <p>
+                         Bachelor of Engineering in Information Technology 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guntur  <br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RVR and JC college of engineering        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          CGPA-9.17				 
+                    </p>
+            </div>
+        
+                    
+            <div id="projects">
+            
+                <h2 style ="text-align: left;">PROJECTS</h2>
+        
+                <p> Reinforcement Learning Agent for Mario Game.
+                    Implemented Reinforcement Learning Agent for Mario Game which has proven ability to
+                     improve game performance and player engagement through optimized decision-making and adaptive gameplay. 
+                     Demonstrated ability to work well in a team environment and effectively communicate technical concepts to non-technical stakeholders.
+                     <br>
+                    Technologies used: Python, OpenAI Gym
+               </p>
+                <p>
+                    Worked on Mining Temporal Patterns In Time Interval Based Data finding the complex relationship is
+                    done by two representations mainly End Point Representation and End time Representation.
+                    <br>
+                    Technologies used: Python.
+                  
+                </p>
+        </div>
+              
+                
+            <div id="experience">
+            
+                <h2 style ="text-align: left;">EXPERIENCE</h2>
+            
+                <p> Over all 2.0Years of Experience in Administrating/Maintenance and Implementing of
+                    Database in Microsoft SQL Server. Looking for competitive and challenging job, which will be
+                    beneficial to both the organization and myself by speedy implementation of professional knowledge
+                    and experience into actions where I can prove my technical and functional expertise and work towards
+                    the growth of the organization </p>
+            </div>
+            
+            <div id="blogs">
+            
+                <h2 style ="text-align: left;">BLOGS</h2>
+            
+                <p> There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form, by injected humour, 
+                    or randomised words which don't look even slightly believable. 
+                    If you are going to use a pahere are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form, by injected humour. </p>
+
+            <div class="footer">
+                <div id="contact">  
+                <h2 style ="text-align: left;">CONTACT</h2>
+                    <img   src="images/facebook.jpg"  style="padding-left:400px" width="75px" height="50px">
+                    <img  src="images/twitter.png"    style="padding-right:15px" width="50px" height="50px">
+                    <img   src="images/gmail.png"  style="padding-right:15x"width="50px" height="50px">   
+                    <img   src="images/github.png" style="padding-right:15px" width="50px" height="50px">            
+                </div>
+              </footer>          
+            
+        <script src="" async defer></script>
+    </div>
+    </body>
+ <style>
+        
+
+        :root{
+  --main-radius:5px;
+  --main-padding:5px;
+}
+
+.container{
+   height: 100%;
+  width:100%;
+  display: grid;
+  grid-template-rows: 0.6fr 2fr 2.3fr 2.3fr 2.3fr 2.3fr 0.8fr;
+  grid-template-columns:2fr 2fr;
+  grid-template-areas:
+  "topnav topnav"
+  "about about " 
+  "education education"
+  "projects projects"
+  "experience experience"
+  "blogs blogs"
+  "contact contact";
+  gap: 0.5em;
+}
+
+.topnav{
+  grid-area: topnav;
+  border-radius: var(--main-radius);
+   padding: var(--main-padding);
+}
+
+#about
+{
+ 
+  grid-area: about;
+  height: auto;
+border-radius: var(--main-radius);
+padding: var(--main-padding);
+}
+
+#education
+{
+  grid-area: education;
+border-radius: var(--main-radius);
+padding: var(--main-padding);
+}
+
+
+#projects
+{
+  grid-area: projects;
+border-radius: var(--main-radius);
+padding: var(--main-padding);
+}
+
+#experience
+{
+  grid-area: experience;
+border-radius: var(--main-radius);
+padding: var(--main-padding);
+}
+
+
+#blogs
+{
+  grid-area: blogs;
+border-radius: var(--main-radius);
+padding: var(--main-padding);
+}
+#contact
+{
+  grid-area: contact;
+  border-radius: var(--main-radius);
+  padding: var(--main-padding);
+}
+
+.footer{
+
+  grid-area: footer;
+border-radius: var(--main-radius);
+padding: var(--main-padding);
+}
+
+
+h2{
+    background-color: rgb(214, 214, 211);
+    text-align: left;
+  }
+
+body
+{
+    background-color: rgb(221, 253, 251);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#box2{
+  
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+}
+#box1 {
+  float: left;
+
+
+}
+#box2{
+  width: auto;
+  height: auto;
+
+}
+
+
+.topnav {
+  grid-area: topnav;
+  overflow: hidden;
+  background-color: #999494;
+}
+
+.topnav a {
+ 
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+
+  background-color: #121111;
+  color: rgb(223, 219, 219);
+}
+
+.topnav a.active {
+
+  color: white;
+}
+
+@media only screen and (max-width:500px)
+{
+  .container{
+    grid-template-rows: 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr  0.2fr;
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "topnav "
+    "about   " 
+    "education "
+    "projects "
+    "experience "
+    "blogs "
+    "contact";
+   
+    gap: 0.4em;
+  }
+ #about{
+  display: grid;
+ }
+ 
+}
+
+
+
+
+
+    </style>
+</html>
