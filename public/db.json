@@ -1,5 +1,4 @@
-{
-    "books":
+
  [{
     "Rank": 1,
     "Name": "Chipotle",
@@ -93,4 +92,4 @@
     "Ratings":5
 }
 
- ]}
+ ]
